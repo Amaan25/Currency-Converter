@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&family=Courgette&family=Merriweather:wght@300&family=Roboto+Slab:wght@100;200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&family=Courgette&family=Josefin+Sans:wght@300&family=Merriweather:wght@300&family=Roboto+Slab:wght@100;200&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color:rgba(12, 16, 222) ;
+    height: 70px; 
+}
+
+.navbar__left{
+    color: white;
+    font-family: 'Courgette', cursive;
+
+}
+.navbar__left h1{
+    color: white;
+    font-family: 'Courgette', cursive;
+    font-size: 1.6rem;
+    text-shadow: 1px 1px 5px black;
+}
+
+.navbar__right a{
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+    font-size: 1.4rem;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.navbar__right a:hover{  
+    background-color:rgb(36, 34, 145);
+    color: white;  
+}

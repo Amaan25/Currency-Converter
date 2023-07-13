@@ -1,0 +1,100 @@
+
+.selectdrp{
+    width: 100%;
+    max-width: 160px;
+    margin:13px;
+}
+
+.selectyr{
+    width: 100%;
+    max-width: 100px;
+    margin:13px;
+}
+
+.countryFirst{
+    padding: 15px 15px;
+    margin:5px;
+    font-size: 1.2rem;
+}
+
+.selectYear p{
+    padding: 10px 15px;
+    margin:5px;
+    font-size: 1.2rem;
+}
+
+.exchange_container{
+    display: flex;
+    justify-content: space-between;
+    
+    
+}
+.exchangeRate{
+    max-height: calc(100% - 70px - 50px);
+    border : 2px solid #000;
+}
+
+.exc_cont1{
+    display: flex;
+ 
+}
+.exc_cont2{
+    display: flex;
+    justify-content: space-between;
+ 
+}
+
+.selectYear{
+    display: flex;
+}
+
+.btn_new{
+    text-decoration: none;
+    color: white;
+    border-radius: 5px;
+    font-size: 1.1rem;
+    font-family: 'Josefin Sans', sans-serif;
+    background-color: blue;
+    border: 2px solid blue;
+    padding: 10px 20px;
+    margin:20px;
+    transition: all 0.3s ease;
+}
+
+.btn_new:hover{
+    background-color:transparent;
+    color: blue;
+    border: 2px solid blue;
+}
+.btn_sub{
+    text-decoration: none;
+    color: white;
+    border-radius: 5px;
+    font-size: 1.1rem;
+    font-family: 'Josefin Sans', sans-serif;
+    background-color: blue;
+    border: 2px solid blue;
+    padding: 5px 15px;
+    margin:15px;
+    margin-bottom: 22px;
+    margin-top: 5px;
+    transition: all 0.3s ease;
+}
+
+.btn_sub:hover{
+    background-color:transparent;
+    color: blue;
+    border: 2px solid blue;
+}
+
+.mychart{
+    max-height: 520px;
+    height: 520px;
+    width:800px;
+    margin: auto;
+}
+.peakRating{
+    font-size: 1.2rem;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: bolder;
+}
